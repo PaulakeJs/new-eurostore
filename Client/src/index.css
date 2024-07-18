@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-white text-black;
+}
+
+.ad1 {
+  background-image: url("https://c0.wallpaperflare.com/preview/883/514/467/unpaired-red-nike-sneaker.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.ad2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTURF-HDE5ct7-58a2Lsa21qaKMKLG4UEk11M5vpx5BvQ&s");
+  background-position: center;
+  background-size: cover;
+}
+.xc:focus {
+  outline: none;
+}
+
+/* Limit the height of the table cell and show ellipsis (...) for overflow */
+/* Limit the height of the table cell and show ellipsis (...) for overflow */
+.table td {
+  max-height: 100px; /* Adjust the height as per your preference */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Remove white-space: nowrap; to allow text wrapping */
+}
+.tx {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
